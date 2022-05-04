@@ -15,6 +15,33 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 1) **Think about how to validate each of your features according to a Definition of Done. (Hint: console.log usually helps here.)**
 1) **Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.**
 
+###Goblin Fighter Planning###
+
+##State
+
+- Array of goblins (name, health points)
+- Number of defeated goblins (derived from array of goblins)
+
+Goblin object:
+
+```js
+{name: 'Professor Goblin', hp: 4}
+```
+
+###HTML Elements (on Page load)
+
+- input for adding new goblins
+- button for adding new goblins
+- span for tracking defeated goblins
+- span for tracking player HP
+- `<ul>` for our goblins list
+
+###Functions
+
+- `displayGoblins` --clear out the list, and render a goblin element for each goblin in your list of goblins
+- `renderGoblin(goblin)` --create a goblin element for specific goblin object
+- `goblinClickHandler` -- takes care of the game logic when goblins are clicked
+
 Additional considerations:
 - Ask: which of your HTML elements need to be hard coded, and which need to be dynamically generated?
 - Consider your data model. 
