@@ -99,7 +99,7 @@ footer {
     justify-content: space-between;
 }
 .adventurer img {
-    width: 250px;
+    width: 200px;
 }
 .adventurer {
     color: #660000;
@@ -160,14 +160,14 @@ form {
 .goblin {
     cursor: pointer;
     border: solid 3px #5d086d;
-    border-radius: 5px;
+    border-radius: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
-    background-color: #dda1eb;
-    justify-self: flex-end;
-    font-size: 3rem;
+    margin: 10px;
+    background-color: #c5a515;
+    justify-self: start;
+    font-size: 2rem;
 }
 
 .dead {
