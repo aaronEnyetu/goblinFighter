@@ -29,6 +29,7 @@ body {
     
     font-family: 'Titillium Web', sans-serif;
     background-color: var(--color2);
+    
 }
 
 main {
@@ -88,4 +89,92 @@ footer {
     justify-content: flex-end;
     background-color: var(--color3);
     box-shadow: var(--shadow);
+}
+.adventurer-stats {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.adventurer img {
+    width: 200px;
+}
+.adventurer {
+    color: #660000;
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+
+.adventurer p {
+    background-color: brown;
+    border-radius: 15px;
+    padding: 20px
+
+}
+
+.goblin-stats {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.goblin-stats input, .goblin-stats button {
+    height: 50px;
+}
+
+.goblin-stats button {
+    font-size: 2em;
+}
+.goblin-stats input {
+    font-size: 3rem;
+    width: 50%
+}
+
+.defeated-goblins { 
+    text-align: center;
+} 
+
+.defeated-goblins p {
+    font-size: 2rem;
+    color: white;
+    background-color: rebeccapurple;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+
+form {
+    padding: 20px;
+    display: flex;
+}
+
+
+.goblin {
+    cursor: pointer;
+    border: solid 3px #5d086d;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: #c5a515;
+    justify-self: start;
+    font-size: 2rem;
+}
+
+.dead {
+    opacity: .2;
+    cursor: default;
+}
+
+.game-over {
+    transform: rotate(90deg);
 }
